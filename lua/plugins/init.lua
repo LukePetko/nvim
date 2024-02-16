@@ -5,4 +5,5 @@ return {
         name = "plenary"
     },
     "github/copilot.vim",
+    "Raimondi/delimitMate",
 }
