@@ -28,6 +28,8 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 
 vim.keymap.set("n", "<leader>b", ":ls<cr>:b<space>")
 
+vim.keymap.set("n", "<leader>fx", "<Cmd>Oil --float %:p:h <CR>")
+
 vim.g.maplocalleader = ','
 
 
