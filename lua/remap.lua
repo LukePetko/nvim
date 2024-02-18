@@ -32,4 +32,3 @@ vim.keymap.set("n", "<leader>fx", "<Cmd>Oil --float %:p:h <CR>")
 
 vim.g.maplocalleader = ','
 
-
