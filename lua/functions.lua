@@ -11,7 +11,7 @@ vim.api.nvim_create_user_command('Rfinder',
 )
 
 vim.cmd([[
-    autocmd BufWritePre ~/Projects/**/{*.js,*.jsx,*.ts,*.tsx} Neoformat
+    autocmd BufWritePre ~/Projects/**/{*.js,*.jsx,*.ts,*.tsx,*.astro} Neoformat
 ]])
 
 vim.cmd([[
