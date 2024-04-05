@@ -18,6 +18,10 @@ vim.cmd([[
     autocmd BufWritePost ~/Akular/**/{*.js,*.jsx,*.ts,*.tsx} :EslintFixAll
 ]])
 
+vim.cmd([[
+    autocmd BufNewFile,BufRead *.ebnf setf ebnf
+]])
+
 local autocmd = vim.api.nvim_create_autocmd
 
 autocmd('LspAttach', {
